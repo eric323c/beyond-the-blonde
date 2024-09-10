@@ -39,14 +39,17 @@ export default function Home() {
         <h2>Our Services</h2>
         <div className="services-grid">
           <div className="service-card">
+            <img src="https://images.unsplash.com/photo-1562259920-47afc3030ba2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNhbG9ufGVufDB8MHwwfHx8MA%3D%3D" alt="Blonde hair transformation" />
             <h3>Platinum Blonde Perfection</h3>
             <p>For the boldest blonde transformations.</p>
           </div>
           <div className="service-card">
+            <img src="https://plus.unsplash.com/premium_photo-1676677513676-d2add148a9fa?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Haircut with precision" />
             <h3>Creative Color</h3>
             <p>Unleash your creativity with custom colors.</p>
           </div>
           <div className="service-card">
+            <img src="https://plus.unsplash.com/premium_photo-1677616798094-d34c85b61e36?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blow-drying in salon" />
             <h3>Balayage Brilliance</h3>
             <p>Soft, seamless highlights for a natural glow.</p>
           </div>
