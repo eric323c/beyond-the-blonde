@@ -1,1 +1,44 @@
+/* styles/globals.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #000;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.cta-button {
+  background-color: #ff0077;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #cc0066;
+}
 
