@@ -1,44 +1,42 @@
-/* styles/globals.css */
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7;
-  color: #333;
-}
-
-h1 {
-  font-size: 3rem;
-  color: #000;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-p {
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 1rem auto;
-  width: 80%;
-}
-
-.container {
+/* Hero Section */
+.hero-container {
+  height: 100vh;
+  background: url('/path-to-your-image.jpg') no-repeat center center/cover;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  position: relative;
+  color: white;
+}
+
+.hero-content {
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .cta-button {
   background-color: #ff0077;
   color: white;
-  padding: 0.8rem 1.5rem;
-  margin-top: 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 5px;
-  text-decoration: none;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
 }
 
 .cta-button:hover {
-  background-color: #cc0066;
+  background-color: #e6006e;
+  transform: scale(1.05);
 }
-
