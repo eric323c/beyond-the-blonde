@@ -1,35 +1,20 @@
-import Head from 'next/head'; // This line is necessary to avoid the error
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Beyond the Blonde | Luxury Hair Transformations</title>
-        <meta name="description" content="Beyond the Blonde offers luxury hair transformations with bold, modern designs inspired by creativity and elegance. Make your next look timeless." />
+        <title>Beyond the Blonde | Bold. Vintage. Modern.</title>
+        <meta name="description" content="Luxury hair transformations with bold, modern designs inspired by creativity and elegance." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
-      {/* Navbar */}
-      <nav className="navbar">
-        <div className="navbar-logo">
-          <a href="/">Beyond the Blonde</a>
-        </div>
-        <ul className="navbar-links">
-          <li><a href="#services">Services</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <a href="/book" className="navbar-cta">Book Now</a>
-      </nav>
-
       {/* Hero Section */}
       <section className="hero-section">
-        <div className="hero-overlay"></div>
         <div className="hero-content">
-          <h1 className="hero-title">Beyond the Blonde</h1>
-          <p className="hero-description">Luxury Hair. Creative Transformations.</p>
-          <a href="/services" className="cta-button">Get Your Transformation</a>
+          <h1 className="cursive-header">Beyond the Blonde</h1>
+          <p className="bold-subheader">Bold. Modern. Fearless.</p>
+          <a href="#services" className="cta-button">Get Your Transformation</a>
         </div>
       </section>
 
