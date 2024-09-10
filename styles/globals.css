@@ -10,7 +10,7 @@ body {
 /* Hero Section */
 .hero-container {
   height: 100vh;
-  background: url('https://images.unsplash.com/photo-1470259078422-826894b933aa?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+  background: url('/images/hero-bg.jpg') no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,68 +78,17 @@ body {
 
 }
 
-/* Services Section */
-.services-container {
-  padding: 4rem 0;
-  text-align: center;
-}
-
-.page-title {
-  font-size: 3rem;
-  margin-bottom: 2rem;
-}
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
-.service-card {
-  background: #fff;
-  border-radius: 8px;
-  padding: 2rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.service-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
-}
-
-.service-card h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #0077ff;
-}
-
-.service-card p {
-  font-size: 1rem;
-  color: #555;
-}
-
-/* Typography */
-h1, h2 {
-  color: #ff0077;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  color: #555;
-}
-
-/* Animations for Buttons */
-.cta-button:hover {
-  animation: hoverGlow 0.5s ease-out infinite alternate;
-}
-
-@keyframes hoverGlow {
-  0% {
-    box-shadow: 0 0 5px #ff0077;
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 3rem;
   }
-  100% {
-    box-shadow: 0 0 20px #ff0077;
+
+  .hero-description {
+    font-size: 1.2rem;
+  }
+
+  .cta-button {
+    padding: 0.8rem 1.5rem;
   }
 }
