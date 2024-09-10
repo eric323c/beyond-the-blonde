@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Beyond the Blonde | Bold, Creative Hair Transformations</title>
-        <meta name="description" content="Unleash your boldest look with Beyond the Blonde's creative hair services. Fun, fearless, and creative hair transformations for all!" />
+        <title>Beyond the Blonde | Luxury Hair Transformations</title>
+        <meta name="description" content="Beyond the Blonde offers luxury hair transformations with bold, modern designs inspired by creativity and elegance. Make your next look timeless." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
@@ -20,55 +20,104 @@ export default function Home() {
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <a href="/book" className="navbar-cta">Let’s Go Bold!</a>
+        <a href="/book" className="navbar-cta">Book Now</a>
       </nav>
 
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-overlay"></div>
         <div className="hero-content">
-          <h1 className="hero-title">Step Beyond the Blonde</h1>
-          <p className="hero-description">Where Fun Meets Fearless Style</p>
-          <a href="/services" className="cta-button">Get Creative!</a>
+          <h1 className="hero-title">Beyond the Blonde</h1>
+          <p className="hero-description">Luxury Hair. Creative Transformations.</p>
+          <a href="/services" className="cta-button">Get Your Transformation</a>
         </div>
       </section>
 
       {/* Services Section */}
       <section id="services" className="services-section">
-        <h2>Our Fun Services</h2>
+        <h2>Our Services</h2>
         <div className="services-grid">
           <div className="service-card">
-            <img src="https://images.unsplash.com/photo-1562259920-47afc3030ba2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNhbG9ufGVufDB8MHwwfHx8MA%3D%3D" alt="Blonde hair transformation" />
-            <h3>Blonde but Bold</h3>
-            <p>Taking blonde to new creative heights.</p>
+            <img src="/images/blonde-transformation.jpg" alt="Blonde Hair Transformation" />
+            <h3>Blonde But Bold</h3>
+            <p>A daring take on classic blonde styles.</p>
           </div>
           <div className="service-card">
-            <img src="https://plus.unsplash.com/premium_photo-1676677513676-d2add148a9fa?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Creative haircut" />
+            <img src="/images/color-craze.jpg" alt="Creative Hair ColorHere’s the continuation and completion of the **`index.js`** file, incorporating **interactive and luxury design principles** into the **services section**, **testimonials**, and **footer**.
+
+### **Full Updated `index.js`**
+```javascript
+import Head from 'next/head';
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Beyond the Blonde | Luxury Hair Transformations</title>
+        <meta name="description" content="Beyond the Blonde offers luxury hair transformations with bold, modern designs inspired by creativity and elegance. Make your next look timeless." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
+
+      {/* Navbar */}
+      <nav className="navbar">
+        <div className="navbar-logo">
+          <a href="/">Beyond the Blonde</a>
+        </div>
+        <ul className="navbar-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="/book" className="navbar-cta">Book Now</a>
+      </nav>
+
+      {/* Hero Section */}
+      <section className="hero-section">
+        <div className="hero-overlay"></div>
+        <div className="hero-content">
+          <h1 className="hero-title">Beyond the Blonde</h1>
+          <p className="hero-description">Luxury Hair. Creative Transformations.</p>
+          <a href="/services" className="cta-button">Get Your Transformation</a>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section id="services" className="services-section">
+        <h2>Our Services</h2>
+        <div className="services-grid">
+          <div className="service-card">
+            <img src="/images/blonde-transformation.jpg" alt="Blonde Hair Transformation" />
+            <h3>Blonde But Bold</h3>
+            <p>A daring take on classic blonde styles.</p>
+          </div>
+          <div className="service-card">
+            <img src="/images/color-craze.jpg" alt="Creative Hair Color" />
             <h3>Color Craze</h3>
-            <p>Colors that speak to your wild side.</p>
+            <p>Vibrant, bold colors to match your personality.</p>
           </div>
           <div className="service-card">
-            <img src="https://plus.unsplash.com/premium_photo-1677616798094-d34c85b61e36?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Salon blow-dry" />
-            <h3>Funky Fresh Styles</h3>
-            <p>Blowouts that give you a fresh new look.</p>
+            <img src="/images/luxury-cut.jpg" alt="Luxury Haircut" />
+            <h3>Luxury Cuts</h3>
+            <p>Refined and modern cuts for any style.</p>
           </div>
         </div>
       </section>
 
       {/* Testimonials Section */}
       <section id="testimonials" className="testimonials-section">
-        <h2>What Our Creative Clients Say</h2>
+        <h2>What Our Clients Say</h2>
         <div className="testimonials-grid">
           <div className="testimonial">
-            <p>"Beyond the Blonde made me feel like a new person!"</p>
+            <p>"Beyond the Blonde gave me the transformation of a lifetime. I love the creativity they bring to every look!"</p>
             <h4>- Client A</h4>
           </div>
           <div className="testimonial">
-            <p>"It’s not just blonde, it’s BOLD! Love the creativity!"</p>
+            <p>"The best hair experience I’ve ever had. They truly know how to deliver a luxury experience."</p>
             <h4>- Client B</h4>
           </div>
           <div className="testimonial">
-            <p>"Best hair experience ever—super fun, fresh, and fearless."</p>
+            <p>"From bold blonde to vibrant color, Beyond the Blonde has changed my hair game completely!"</p>
             <h4>- Client C</h4>
           </div>
         </div>
@@ -77,9 +126,9 @@ export default function Home() {
       {/* Footer Section */}
       <footer id="contact" className="footer-section">
         <div className="footer-content">
-          <h3>Get in Touch</h3>
-          <p>123 Fun Street, Creative City, State, 12345</p>
-          <p>Email: hello@beyondtheblonde.com</p>
+          <h3>Contact Us</h3>
+          <p>123 Main Street, City, State, 12345</p>
+          <p>Email: info@beyondtheblonde.com</p>
           <p>Phone: (123) 456-7890</p>
         </div>
         <div className="footer-social">
