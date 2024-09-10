@@ -1,3 +1,16 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
 /* Hero Section */
 .hero-container {
   height: 100vh;
