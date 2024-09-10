@@ -135,10 +135,20 @@ a {
   transition: transform 0.3s ease;
 }
 
+.service-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
 .service-card:hover {
   transform: scale(1.05);
 }
 
+.service-card h3 {
+Here is the continuation of the **`globals.css`** file, completing the **services section** styling and covering all other design aspects:
+
+```css
 .service-card h3 {
   color: #0074D9;
   font-size: 1.8rem;
@@ -186,14 +196,6 @@ a {
   color: #0074D9;
 }
 
-/* Footer Section */
-.footer-section {
-  padding: 3rem 2rem;
-  background-color: #001f3f;
-  color: #fff;
- Here’s the continuation of the **full `globals.css`** and updated styling for the **footer** to complete the design:
-
-```css
 /* Footer Section */
 .footer-section {
   padding: 3rem 2rem;
