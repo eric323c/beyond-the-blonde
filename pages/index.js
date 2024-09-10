@@ -1,3 +1,5 @@
+import Head from 'next/head'; // This line is necessary to avoid the error
+
 export default function Home() {
   return (
     <>
