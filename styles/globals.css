@@ -144,11 +144,6 @@ a {
 .service-card:hover {
   transform: scale(1.05);
 }
-
-.service-card h3 {
-Here is the continuation of the **`globals.css`** file, completing the **services section** styling and covering all other design aspects:
-
-```css
 .service-card h3 {
   color: #0074D9;
   font-size: 1.8rem;
