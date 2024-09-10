@@ -1,4 +1,26 @@
 import Head from 'next/head';
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "HairSalon",
+  "name": "Beyond the Blonde",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "City",
+    "addressRegion": "State",
+    "postalCode": "12345"
+  },
+  "priceRange": "$$$",
+  "telephone": "+1234567890",
+  "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "52"
+  }
+}
+</script>
 
 export default function Home() {
   return (
