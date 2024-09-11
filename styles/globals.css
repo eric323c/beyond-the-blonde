@@ -31,7 +31,7 @@ section {
 
 .hero-left {
   flex: 1;
-  background: url('/images/salon-image.jpg') center/cover no-repeat;
+  background-size: cover;
 }
 
 .hero-right {
@@ -49,7 +49,7 @@ section {
 }
 
 .book-now-btn {
-  background-color: #d4af37; /* Gold Button */
+  background-color: #d4af37;
   color: black;
   border: none;
   padding: 10px 20px;
@@ -62,14 +62,14 @@ section {
   background-color: #b38628;
 }
 
-/* About Section */
+/* About Us Section */
 .about-section {
   display: flex;
 }
 
 .about-left {
   flex: 1;
-  background: url('/images/lexie.jpg') center/cover no-repeat;
+  background-size: cover;
 }
 
 .about-right {
@@ -78,55 +78,11 @@ section {
 }
 
 .about-right h2 {
-  font-family: 'Poppins', sans-serif;
   font-size: 3rem;
   margin-bottom: 1.5rem;
 }
 
 .about-right p {
-  font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
   line-height: 1.6;
-}
-.navbar {
-  width: 100%;
-  padding: 1rem 3rem;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.navbar .logo h1 {
-  font-family: 'Cursive Font', sans-serif;
-  font-size: 2rem;
-  margin: 0;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links li {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-}
-
-.book-now-navbar {
-  background-color: #d4af37;
-  color: black;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
 }
