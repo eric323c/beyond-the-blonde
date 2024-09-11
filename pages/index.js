@@ -1,6 +1,5 @@
 import Navbar from '../components/Navbar';
 import { useEffect } from 'react';
-import '../styles/globals.css';
 
 export default function Home() {
   useEffect(() => {
@@ -28,7 +27,7 @@ export default function Home() {
       {/* Hero Section (Front of the postcard) */}
       <section className="hero-section section">
         <div className="hero-left">
-          <img src="https://jaylophotos.pixieset.com/download/photo/?username=jaylophotos&key=beyondtheblonde&token=GjUKdekcRNuVAKe7oNFdidjVvD2EFd7-8_EshLaC9-QeYmjZPmM9xga7NnHDi5IpntQHLlVOrs5gtDMRBjs6r9NBEQhRnmH13S5pqCRHjqlxCF0Vkoo1-R1oxfol4FnDSuZQdkVyNV8OCZPMnE_c_f4w1e6voSzhqHzYTKyBuYI&downloadtype=0&downloadSize=1" alt="Salon" />
+          <img src="/images/salon-image.jpg" alt="Salon" />
         </div>
         <div className="hero-right">
           <h1 className="hero-logo">Beyond the Blonde</h1>
