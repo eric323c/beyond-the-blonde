@@ -24,10 +24,10 @@ export default function Home() {
     <>
       <Navbar />
 
-      {/* Hero Section (Front of the postcard) */}
+      {/* Hero Section */}
       <section className="hero-section section">
         <div className="hero-left">
-          <img src="/images/salon-image.jpg" alt="Salon" />
+          <img src="https://jaylophotos.pixieset.com/download/photo/?username=jaylophotos&key=beyondtheblonde&token=yFxGXEXbVIDIEEIC9s2EG4LAN0DZJYGt7cgQyDqWW2Tw5ICbXd8vbN3yWZ6QTZwXOVypIBXHNYamVFdkR1tnSI5wecMkimruwFVRjgYMdT-LW-3GTyftmY5tTospv8vaN4vuC1LzOKhE352Pa4gweOVvbpV-LqipovkGVKlw8ME" alt="Salon" />
         </div>
         <div className="hero-right">
           <h1 className="hero-logo">Beyond the Blonde</h1>
@@ -35,10 +35,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Us Section (Back of the postcard) */}
+      {/* About Us Section */}
       <section className="about-section section">
         <div className="about-left">
-          <img src="/images/lexie.jpg" alt="Lexie" />
+          <img src="https://jaylophotos.pixieset.com/download/photo/?username=jaylophotos&key=beyondtheblonde&token=9Kq5uU-P5sTJYRGS3MDWQXCgBWSE7dR3zOhG_K10VYFxnxIhs_ldJeUNGoQQA-hhvv_aZyTzS8jJceuaxpAOxaS7jiydj0glHPPNkMSTzC8NJGtt15r9jePlAP4aBK-nl50n3VUm3-4tmNC0RgSKwkh5FpewVmNB2a3UJvdKIns" alt="Lexie" />
         </div>
         <div className="about-right">
           <h2>About Lexie</h2>
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Additional sections can go here */}
+      {/* Add more sections here */}
     </>
   );
 }
